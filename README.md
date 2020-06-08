@@ -7,4 +7,4 @@ Created using JavaScrip, HTML and CSS.
 
 Sample image:
 
-<img src="Sample.png" alt="Calculator image" width="400px" height="550px" style="margin: auto;">
+<img src="Sample.png" alt="Calculator image" width="400px" height="550px" margin="auto">
