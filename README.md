@@ -1,5 +1,5 @@
 # Calculator
-<h1>Apple Calculator Mockup</h1>
+<h2>Apple Calculator Mockup</h2>
 
 Created using JavaScript, HTML and CSS.
 
