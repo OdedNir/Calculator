@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="page-wrapper">
+        <div class="background">
+            <div class="display" onload="clearVars()">
+                <div id="bar">0</div>
+            </div>
+            <div class="keysContainer">
+                <button class="key greyKey" id="AC" onclick="clearBar()">AC</button>
+                <button class="key greyKey" id="plus_minus" onclick="invert()">+/-</button>
+                <button class="key greyKey" id="modulo" onclick="operation(id)">%</button>
+                <button class="key orangeKey" id="devide" onclick="operation(id)">÷</button>
+                <button class="key darkKey" id="seven" onclick="numberClicked(id)">7</button>
+                <button class="key darkKey" id="eight" onclick="numberClicked(id)">8</button>
+                <button class="key darkKey" id="nine" onclick="numberClicked(id)">9</button>
+                <button class="key orangeKey" id="multiply" onclick="operation(id)">×</button>
+                <button class="key darkKey" id="four" onclick="numberClicked(id)">4</button>
+                <button class="key darkKey" id="five" onclick="numberClicked(id)">5</button>
+                <button class="key darkKey" id="six" onclick="numberClicked(id)">6</button>
+                <button class="key orangeKey" id="minus" onclick="operation(id)">-</button>
+                <button class="key darkKey" id="one" onclick="numberClicked(id)">1</button>
+                <button class="key darkKey" id="two" onclick="numberClicked(id)">2</button>
+                <button class="key darkKey" id="three" onclick="numberClicked(id)">3</button>
+                <button class="key orangeKey" id="plus" onclick="operation(id)">+</button>
+                <button class="key darkKey" id="zero" onclick="numberClicked(id)">0</button>
+                <button class="key darkKey" id="dot" onclick="numberClicked(id)">.</button>
+                <button class="key orangeKey" id="equal" onclick="evaluateExpression()">=</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="functions.js"></script>
+
+</html>
