@@ -7,4 +7,4 @@ Created using JavaScrip, HTML and CSS.
 
 Sample image:
 
-![Calculator image](Sample.png)
+![Calculator image](Sample.png=550x400)
