@@ -1,7 +1,7 @@
 # Calculator
-Apple Calculator Mockup
+<h1>Apple Calculator Mockup</h1>
 
-Created using JavaScrip, HTML and CSS.
+Created using JavaScript, HTML and CSS.
 
 [Calculator - try me!](https://odednir.github.io/Calculator/)
 
